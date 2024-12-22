@@ -1,0 +1,10 @@
+saved_models/
+stable-video-diffusion-img2vid/
+venv/
+.idea/
+training_data/video4/
+training_data/video5/
+training_data/video11/
+training_data/video12/
+training_data/video13/
+training_data/video15/
