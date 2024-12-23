@@ -602,8 +602,8 @@ def main():
         # kwargs_handlers=[ddp_kwargs]
     )
 
-    generator = torch.Generator(
-        device=accelerator.device).manual_seed(args.seed)
+    # Set the seed globally
+    torch.manual_seed(args.seed)
 
     if args.report_to == "wandb":
         if not is_wandb_available():
